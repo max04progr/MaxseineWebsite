@@ -1,0 +1,76 @@
+/* Hier ist unsere Css-Datei hier gestalten wir unnsere Website */
+
+body {font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
+html {scroll-behavior: smooth;}
+.site-header h1 {
+    text-align: center;
+}
+.site-nav {
+    background-color: gainsboro;
+    text-align: center;
+    padding: 1rem;
+}
+.site-nav ul {
+    padding: 0;
+    margin: 0;
+}
+.site-nav li {
+    display: inline;
+}
+.site-nav a {
+    text-decoration: none;
+    color: gray;
+    padding-left: 1rem;
+}
+.site-main .bildvonweber img {
+    border: 2px solid red;
+}
+.fenster details {
+    background-color: gainsboro;
+}
+.fenster summary {
+    padding: 1rem;
+    border: 2px solid gainsboro;
+}
+.fenster p {
+    margin: 1rem;
+    padding-bottom: 1rem;
+}
+.site-footer {
+    background-color: gainsboro;
+    padding: 1rem;
+    text-align: right;
+}
+.site-footer ul {
+    padding: 0;
+    margin: 0;
+}
+.site-footer li {
+    display: inline;
+}
+.site-footer a {
+    color: gray;
+    text-decoration: none;
+    padding-left: 0.5rem;
+} 
+.site-main #bildvoncode img {
+    height: auto;
+    width: 100%;
+    padding-top: 1rem;
+}  
+.site-main #bildvoncsscode img {
+    height: auto;
+    width: 100%;
+    padding-top: 1rem;
+}
+.site-main #bildvonwissen img {
+    width: 100%;
+    height: auto;
+    padding-top: 1rem;
+}
+.site-main #bildvoneinenschloss img {
+    width: 100%;
+    height: auto;
+    padding-top: 1rem;
+}
